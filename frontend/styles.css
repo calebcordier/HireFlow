@@ -1,0 +1,89 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    width: 375px;
+}
+.container h1{
+    text-align: center;
+    font-size:29px;
+    font-weight: bold;
+    margin: auto;
+}
+.container p {
+    color: gray;
+    padding-bottom: 2px;
+}
+.container input {
+    display: block;
+    align-items: center;
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    margin-left:0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.forgot-password {
+    display: block;
+    font-size: 12px;
+    text-align: right;
+    margin: -5px 0px 10px;
+    color: black;
+    text-decoration: none;
+}
+.login-btn {
+    font-size: 13px;
+    width: 322px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.divider {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 10px 10px;
+}
+.divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+.divider span {
+    padding: 0 10px;
+    color: gray;
+}
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-btn img {
+    width: 18px;
+    margin-right: 8px;
+}
+.terms {
+    font-size: 10px;
+    color: gray;
+}
+.terms a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

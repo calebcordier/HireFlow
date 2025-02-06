@@ -8,16 +8,6 @@
 <body>
     <h2>Welcome to Your Dashboard</h2>
     <button id="logout">Logout</button>
-
-    <script type="module">
-        import { auth } from "./firebase.js";
-        import { signOut } from "firebase/auth";
-
-        document.getElementById("logout").addEventListener("click", async () => {
-            await signOut(auth);
-            alert("Logged out successfully!");
-            window.location.href = "login.html";
-        });
-    </script>
+    <script type="module" src="/backend/dashboard.js"></script>
 </body>
 </html>
